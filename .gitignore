@@ -1,0 +1,55 @@
+# frontend
+client/node_modules/
+client/build/
+client/.env
+client/.DS_Store
+client/*.log
+client/yarn-error.log
+
+# backend
+server/*.py[cod]
+server/__pycache__/
+server/*.so
+server/**/migrations/*
+!server/**/migrations/__init__.py
+server/.env
+server/*.env
+server/*.local
+server/*.sqlite3
+server/staticfiles/
+server/static/
+server/media/
+server/.vscode/
+server/.idea/
+server/*.sublime-project
+server/*.sublime-workspace
+server/venv/
+server/env/
+server/.venv/
+server/.env/
+server/coverage/
+server/*.cover
+server/*.coverage
+server/*.coverage.*
+server/.pytest_cache/
+server/*.log
+server/*.pot
+server/*.pyc
+server/*.pyo
+server/*.swp
+server/*.swo
+server/*~
+server/Thumbs.db
+
+# General system files
+.DS_Store
+Thumbs.db
+
+# General IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# General log files
+*.log
